@@ -1,4 +1,5 @@
 import re
+import io
 import pandas as pd
 from typing import Iterable, Set, List
 from core.utils import TextNormalizer
