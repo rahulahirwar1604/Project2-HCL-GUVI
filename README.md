@@ -48,7 +48,7 @@ rapidfuzz>=3.0.0
 1.	Clone the Repository
  	```bash
     git clone <your-repo-url>
-    cd resume-skill-extractor
+    cd Project2-HCL-GUVI
 	```
 
 2.	Create Virtual Environment (recommended)
