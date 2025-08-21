@@ -5,7 +5,7 @@ A Streamlit web app that extracts skills from resumes (PDF/TXT) and compares the
 The project is built with a modular OOP design, making it easy to debug, extend, and maintain.
 
 ⸻
-📂 Project Structure
+## 📂 Project Structure
 ```bash
 Project2-HCL-GUVI/
 │── app.py                # Entry point (Streamlit main file)
@@ -29,12 +29,12 @@ Project2-HCL-GUVI/
     └── app_ui.py          # ResumeSkillApp (UI Orchestration)
 ```
 
-    ⚙️ Requirements
+## ⚙️ Requirements
 
-Python Version
+ Python Version
 	•	Python 3.9+ (recommended 3.10 or 3.11)
 
-Dependencies
+## Dependencies
 
 Installed via requirements.txt:
 ```bash
@@ -43,15 +43,8 @@ pandas>=2.0.0
 PyPDF2>=3.0.0
 rapidfuzz>=3.0.0
 ```
-Optional Extras
 
-	•	python-docx → Add support for .docx resumes
-	•	spacy → Advanced NLP-based skill extraction
-	•	matplotlib / seaborn → Custom charts
-
-⸻
-
-🚀 Setup Instructions
+## 🚀 Setup Instructions
 
 1.	Clone the Repository
  	```bash
@@ -76,7 +69,7 @@ Optional Extras
 ```
 
 
-🖥️ How to Use
+## 🖥️ How to Use
 
 	1.	Upload Resumes → Select one or more resumes (PDF/TXT).
 	2.	Enter Job Skills → Type comma-separated skills (e.g., Python, SQL, Machine Learning, AWS).
@@ -85,7 +78,7 @@ Optional Extras
 	5.	Download Report → Export results as CSV.
 
 
-🔧 Features
+## 🔧 Features
 
 	•	Upload multiple resumes (PDF/TXT)
 	•	Customizable skills list (via CSV or text input)
