@@ -1,4 +1,4 @@
-📄🔎 Resume Skill Extractor (Streamlit + OOP)
+#📄🔎 Resume Skill Extractor (Streamlit + OOP)
 
 A Streamlit web app that extracts skills from resumes (PDF/TXT) and compares them with job-required skills. It highlights matched skills, missing skills, and calculates match percentage — making hiring easier and faster.
 
