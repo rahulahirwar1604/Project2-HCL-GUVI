@@ -53,24 +53,24 @@ Optional Extras
 
 🚀 Setup Instructions
 
-	1.	Clone the Repository
+1.	Clone the Repository
  	```bash
     git clone <your-repo-url>
     cd resume-skill-extractor
 	```
 
-    2.	Create Virtual Environment (recommended)
+2.	Create Virtual Environment (recommended)
 	```bash
     python -m venv venv
     source venv/bin/activate   # Mac/Linux
     venv\Scripts\activate      # Windows
 	```
 
-    3.	Install Requirements
+3.	Install Requirements
 	```bash
     pip install -r requirements.txt
 	```
-    ▶️ Run the App
+▶️ Run the App
 	```bash
     streamlit run app.py
 	```
