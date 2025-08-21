@@ -12,7 +12,7 @@ Project2-HCL-GUVI/
 │── requirements.txt       # Dependencies
 │── README.md              # Project documentation
 │
-├── core/                  # Core business logic
+├── core/                  # Core logic
 │   ├── __init__.py
 │   ├── parsers.py         # ResumeParser + FileReaders
 │   ├── skills.py          # SkillRepository + SkillExtractor
@@ -44,6 +44,7 @@ PyPDF2>=3.0.0
 rapidfuzz>=3.0.0
 ```
 Optional Extras
+
 	•	python-docx → Add support for .docx resumes
 	•	spacy → Advanced NLP-based skill extraction
 	•	matplotlib / seaborn → Custom charts
@@ -51,6 +52,7 @@ Optional Extras
 ⸻
 
 🚀 Setup Instructions
+
 	1.	Clone the Repository
     git clone <your-repo-url>
     cd resume-skill-extractor
@@ -68,6 +70,7 @@ Optional Extras
 
 
 🖥️ How to Use
+
 	1.	Upload Resumes → Select one or more resumes (PDF/TXT).
 	2.	Enter Job Skills → Type comma-separated skills (e.g., Python, SQL, Machine Learning, AWS).
 	3.	Click Extract & Match → The app will parse, extract skills, and compare.
@@ -76,6 +79,7 @@ Optional Extras
 
 
 🔧 Features
+
 	•	Upload multiple resumes (PDF/TXT)
 	•	Customizable skills list (via CSV or text input)
 	•	Exact + fuzzy matching (RapidFuzz)
