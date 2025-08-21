@@ -2,7 +2,6 @@
 
 A Streamlit web app that extracts skills from resumes (PDF/TXT) and compares them with job-required skills. It highlights matched skills, missing skills, and calculates match percentage — making hiring easier and faster.
 
-The project is built with a modular OOP design, making it easy to debug, extend, and maintain.
 
 ⸻
 ## 📂 Project Structure
