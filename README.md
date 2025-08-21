@@ -6,6 +6,7 @@ The project is built with a modular OOP design, making it easy to debug, extend,
 
 ⸻
 📂 Project Structure
+```bash
 Project2-HCL-GUVI/
 │── app.py                # Entry point (Streamlit main file)
 │── requirements.txt       # Dependencies
@@ -26,6 +27,7 @@ Project2-HCL-GUVI/
 └── ui/                    # Streamlit UI logic
     ├── __init__.py
     └── app_ui.py          # ResumeSkillApp (UI Orchestration)
+```
 
     ⚙️ Requirements
 
@@ -35,11 +37,12 @@ Python Version
 Dependencies
 
 Installed via requirements.txt:
+```bash
 streamlit>=1.36.0
 pandas>=2.0.0
 PyPDF2>=3.0.0
 rapidfuzz>=3.0.0
-
+```
 Optional Extras
 	•	python-docx → Add support for .docx resumes
 	•	spacy → Advanced NLP-based skill extraction
