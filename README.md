@@ -47,7 +47,7 @@ rapidfuzz>=3.0.0
 
 1.	Clone the Repository
  	```bash
-    git clone <your-repo-url>
+    git clone <repo-url>
     cd Project2-HCL-GUVI
 	```
 
